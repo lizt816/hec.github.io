@@ -1,0 +1,1 @@
+document.querySelectorAll(".input-password>.iconfont").forEach((i=>{i.addEventListener("click",(function(i){let n=Array.from(this.classList),t=this.previousElementSibling;n.indexOf("h-icon-yanjing-biyan")>-1?(this.classList="iconfont h-icon-yanjing",t.type="text"):(this.classList="iconfont h-icon-yanjing-biyan",t.type="password")}))}));
